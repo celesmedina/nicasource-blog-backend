@@ -1,57 +1,45 @@
-# 🚀 Getting started with Strapi
+# 🚀 Welcome to my Nicasource Blog Assessment
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+These are the instructions to run the backend on your computer.
 
-### `develop`
+## Install dependencies
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
-
-```
-npm run develop
+```bash
+npm install
 # or
-yarn develop
+yarn install
 ```
 
-### `start`
+## Setup environment variables
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+Open the project in your favorite code editor.
+Look for the .env file and write the following information:
 
+```bash
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=jlZg9IvNYLxsCyeMN9C6fQ==,RxEHrKdG4OjqDy5N8ce8Qw==,A7CWrlC0+32qThC7lzU7gA==,v0RrAh2BbHD7VHYgbCY7Cw==
+JWT_SECRET=b0a3401f-e7cb-4a34-b99c-a71d635ca7b7
+API_TOKEN_SALT=3aa7045f878d1db632c93a31fd4423a5
+```
+
+## Run
+
+Start the Strapi Backend
 ```
 npm run start
 # or
 yarn start
 ```
 
-### `build`
+## Go the administration panel
 
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+To fill the backend with information, you have to go to the administration panel on http://localhost:1337/admin.
+Make sure to create an user to login when needed.
 
-```
-npm run build
-# or
-yarn build
-```
+## Fill the backend with information
 
-## ⚙️ Deployment
+In order to showcase some information on the backend create 1 author and at least 10 blog post.
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
 
-## 📚 Learn more
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
