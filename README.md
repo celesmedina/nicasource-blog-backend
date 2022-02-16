@@ -39,7 +39,9 @@ Make sure to create an user to login when needed.
 
 ## Fill the backend with information
 
-In order to showcase some information on the backend create 1 author and at least 10 blog post.
+In order to showcase some information on the frontend create 1 author and at least 10 blog post.
+
+Leave the backend up and running and go <a href="https://github.com/celesmedina/nicasource-blog-frontend">here</a> to setup the app's frontend
 
 
 
